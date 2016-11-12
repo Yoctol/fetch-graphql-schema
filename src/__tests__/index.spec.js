@@ -1,4 +1,4 @@
-const fetchSchema = require('../');
+import fetchSchema from '../';
 
 it('be defined', () => {
   expect(fetchSchema).toBeDefined();

@@ -2,7 +2,7 @@
   "name": "fetch-graphql-schema",
   "version": "0.1.0",
   "description": "fetch GraphQL schema via introspection query",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "license": "MIT",
   "repository": "chentsulin/fetch-graphql-schema",
   "author": {
@@ -28,13 +28,19 @@
     "node-fetch": "^1.6.3"
   },
   "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-jest": "^17.0.0",
+    "babel-preset-latest": "^6.16.0",
     "eslint": "^3.5.0",
     "eslint-config-airbnb-base": "^10.0.1",
     "eslint-plugin-import": "^2.2.0",
     "fetch-mock": "^5.5.0",
-    "jest": "^17.0.0"
+    "jest": "^17.0.0",
+    "rimraf": "^2.5.4"
   },
   "scripts": {
+    "build": "npm run clean && babel src -d lib --ignore __tests__",
+    "clean": "rimraf lib",
     "test": "jest",
     "test:cov": "jest --coverage",
     "lint": "eslint .",
