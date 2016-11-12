@@ -31,14 +31,24 @@
     "eslint": "^3.5.0",
     "eslint-config-airbnb-base": "^10.0.1",
     "eslint-plugin-import": "^2.2.0",
+    "fetch-mock": "^5.5.0",
     "jest": "^17.0.0"
   },
   "scripts": {
+    "test": "jest",
+    "test:cov": "jest --coverage",
     "lint": "eslint .",
     "preversion": "npm test"
   },
   "devEngines": {
     "node": "4.x || 5.x || 6.x || 7.x",
     "npm": "2.x || 3.x || 4.x"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "testEnvironment": "node"
   }
 }
