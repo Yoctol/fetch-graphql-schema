@@ -4,11 +4,11 @@
   "description": "fetch GraphQL schema via introspection query",
   "main": "lib/index.js",
   "license": "MIT",
-  "repository": "chentsulin/fetch-graphql-schema",
+  "repository": "Yoctol/fetch-graphql-schema",
   "author": {
     "name": "C.T. Lin",
     "email": "chentsulin@gmail.com",
-    "url": "github.com/chentsulin/fetch-graphql-schema"
+    "url": "github.com/chentsulin"
   },
   "engines": {
     "node": ">=0.12.0"

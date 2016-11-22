@@ -86,14 +86,14 @@ $ fetch-graphql-schema http://api.server/graphql -o schema.graphql -r
 
 ## License
 
-MIT © [C.T. Lin](https://github.com/chentsulin/fetch-graphql-schema)
+MIT © [C.T. Lin](https://github.com/Yoctol/fetch-graphql-schema)
 
 [npm-image]: https://badge.fury.io/js/fetch-graphql-schema.svg
 [npm-url]: https://npmjs.org/package/fetch-graphql-schema
-[travis-image]: https://travis-ci.org/chentsulin/fetch-graphql-schema.svg
-[travis-url]: https://travis-ci.org/chentsulin/fetch-graphql-schema
-[coveralls-image]: https://coveralls.io/repos/chentsulin/fetch-graphql-schema/badge.svg?branch=master&service=github
-[coveralls-url]: https://coveralls.io/r/chentsulin/fetch-graphql-schema?branch=master
-[david_img]: https://david-dm.org/chentsulin/fetch-graphql-schema.svg
-[david_site]: https://david-dm.org/chentsulin/fetch-graphql-schema
+[travis-image]: https://travis-ci.org/Yoctol/fetch-graphql-schema.svg
+[travis-url]: https://travis-ci.org/Yoctol/fetch-graphql-schema
+[coveralls-image]: https://coveralls.io/repos/Yoctol/fetch-graphql-schema/badge.svg?branch=master&service=github
+[coveralls-url]: https://coveralls.io/r/Yoctol/fetch-graphql-schema?branch=master
+[david_img]: https://david-dm.org/Yoctol/fetch-graphql-schema.svg
+[david_site]: https://david-dm.org/Yoctol/fetch-graphql-schema
 
